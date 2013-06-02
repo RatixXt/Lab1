@@ -15,7 +15,7 @@ int main()
 	BublSort(a,N);
 
 	for (int i=0;i<N;i++)
-		std::cout<<a[i];
+		std::cout<<a[i]<<" ";
 	
 	delete[] a;
 	return 0;
